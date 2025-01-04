@@ -137,7 +137,7 @@ def load_valid_words():
     valid_words = []
 
     # open the file for reading
-    with open('valid-wordle-words.txt',  'r') as file:
+    with open('valid-wordle-words.txt', 'r') as file:
         # each line in the file contains a word
         # loop over the lines and add each word to the list
         for word in file:
